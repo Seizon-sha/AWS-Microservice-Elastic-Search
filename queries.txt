@@ -1,0 +1,24 @@
+
+  {
+    "took" : 1,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "failed" : 0
+   },
+   "hits" : {
+     "total" : 1,
+     "max_score" : 5.8642,
+     "hits" : [ {
+       "_index" : "metadata-store",
+       "_type" : "text",
+       "_source" : {
+         "content_length" : 12,141,368,
+         "objectKey" : "f_5500_2016_latest.csv",
+         "content_type" : "application/octet-stream",
+         "createdDate" : "2017-06-05"
+       }
+    } ]
+  }
+}

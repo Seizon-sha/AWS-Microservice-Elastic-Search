@@ -1,0 +1,16 @@
+GET /_search
+{
+  "query": { 
+    "char": { 
+      "must": [
+        { "match": { "title":   "Search"        }}, 
+        { "match": { "content": "Elasticsearch" }}  
+      ],
+      "filter": [ 
+        { "plan_name":  { "PLAN_NAME": "HRQ, INC.401(K) PLAN" }}, 
+        { "sponser_name": { "SPONSOR_DFE_NAME": "STARTER BROS. MARKERS"}
+        { "sponser_state": { "SPONS_DFE_MAIL_US_STATE": "CA" }}} 
+      ]
+    }
+  }
+}
