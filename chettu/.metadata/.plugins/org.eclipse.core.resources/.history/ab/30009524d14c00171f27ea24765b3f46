@@ -1,0 +1,16 @@
+package chettu;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class handler {
+	public static void main(String args[]) {
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("name", "value");
+		map.put("super", "cool");
+		System.out.println(map.get("name"));
+		System.out.println(map.get("super"));
+
+	}
+
+}

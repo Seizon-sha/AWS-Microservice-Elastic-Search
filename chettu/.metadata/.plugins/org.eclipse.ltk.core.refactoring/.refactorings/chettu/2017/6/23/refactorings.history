@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;chettu.chettu.java&apos; to &apos;Chettu.java&apos;&#x0D;&#x0A;- Original project: &apos;chettu&apos;&#x0D;&#x0A;- Original element: &apos;chettu.chettu.java&apos;&#x0D;&#x0A;- Renamed element: &apos;chettu.Chettu.java&apos;" description="Rename compilation unit &apos;chettu.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;chettu{chettu.java" name="Chettu.java" references="false" stamp="1496547417550" version="1.0"/>
+</session>
